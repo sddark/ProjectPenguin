@@ -2324,6 +2324,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 50.8) (xy 69.85 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "165c7034-d1b2-4c68-b8b7-0bac013d86a3")
+	)
+	(wire
+		(pts
 			(xy 156.21 43.18) (xy 156.21 25.4)
 		)
 		(stroke
@@ -2694,6 +2704,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 50.8) (xy 69.85 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1174255-a5c1-4b07-b8e1-eebeab474d40")
+	)
+	(wire
+		(pts
 			(xy 127 25.4) (xy 127 27.94)
 		)
 		(stroke
@@ -2791,6 +2811,86 @@
 			(type default)
 		)
 		(uuid "edd2c813-2137-421b-936f-66f04de918b2")
+	)
+	(wire
+		(pts
+			(xy 69.85 59.69) (xy 69.85 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc538ddf-6222-41f1-bfb6-f2cd10128790")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 69.85 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01eb3163-bb54-472b-8bbc-2b21ef201eb2")
+		(property "Reference" "C9"
+			(at 73.66 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 73.66 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 70.8152 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 69.85 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4024fbf3-f739-45b9-ab60-fb86c9f33d58")
+		)
+		(pin "1"
+			(uuid "71bc3d3d-54c2-40f0-a255-5c97a592c42b")
+		)
+		(instances
+			(project "Penguin"
+				(path "/f071372f-a84c-461d-8a40-4a0ade99ed6d"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3997,6 +4097,72 @@
 			(project "Penguin"
 				(path "/f071372f-a84c-461d-8a40-4a0ade99ed6d"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fca649fd-890a-4ac7-acf2-49e5d3a8f03f")
+		(property "Reference" "#PWR07"
+			(at 69.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2b42a80-c420-436e-95de-6324b3e5958a")
+		)
+		(instances
+			(project "Penguin"
+				(path "/f071372f-a84c-461d-8a40-4a0ade99ed6d"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
